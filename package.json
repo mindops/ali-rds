@@ -1,7 +1,7 @@
 {
-  "name": "ali-rds",
-  "version": "3.3.1",
-  "description": "Aliyun RDS client",
+  "name": "ali-rds-plus",
+  "version": "1.0.2",
+  "description": "Aliyun RDS client extension",
   "main": "lib/client.js",
   "files": [
     "lib"
@@ -14,7 +14,7 @@
   "dependencies": {
     "co-wrap-all": "^1.0.0",
     "debug": "^2.2.0",
-    "mysql": "^2.13.0",
+    "mysql": "^2.18.1",
     "pify": "^2.3.0"
   },
   "devDependencies": {
@@ -26,18 +26,19 @@
     "mocha": "*",
     "thunk-mocha": "*"
   },
-  "homepage": "https://github.com/ali-sdk/ali-rds",
+  "homepage": "https://github.com/mindops/ali-rds.git",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ali-sdk/ali-rds.git",
-    "web": "https://github.com/ali-sdk/ali-rds"
+    "url": "https://github.com/mindops/ali-rds.git",
+    "web": "https://github.com/mindops/ali-rds.git"
   },
   "bugs": {
     "url": "https://github.com/ali-sdk/ali-rds/issues",
     "email": "fengmk2@gmail.com"
   },
   "keywords": [
-    "ali-rds"
+    "ali-rds",
+    "ali-rds-plus"
   ],
   "engines": {
     "node": ">= 4.0.0"
